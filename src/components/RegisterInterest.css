@@ -1,0 +1,115 @@
+.Registerinterest__container{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.Registerinterest__row{
+    height: 100vh;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.Registerinterest__svg{
+    margin-top: 0px;
+    margin-left: -20px;
+}
+.Registerinterest__image{
+    width: 700px !important;
+    height: auto;
+}
+.Registerinterest__heading{
+    margin-top: 100px;
+    margin-left: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size:36px;
+    font-weight: 600;
+    color:#000080;
+}
+.Registerinterest__svg-column2{
+    background-color: #bbe1fa;
+}
+.Registerinterest__Form-main{
+    margin-top: 60px;
+}
+.Registerinterest__Form{
+    margin-top: 20px;
+}
+.Registerinterest__property{
+    margin-left: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #000080;
+}
+.Registerinterest__Interest{
+    width: 50% !important;
+    height: calc(1.2em + .75rem + 6px) !important;
+    border: none !important;
+    background-color: #bbe1fa !important;
+    margin-left: 20px !important;
+    margin-top: -8px !important;
+    font-size: 16px !important;
+    font-family: 'Poppins', sans-serif !important;
+    color: #000000;
+}
+.Registerinterest__Time{
+    width: 20% !important;
+    height: calc(1.2em + .75rem + 6px) !important;
+    border: none !important;
+    background-color: #bbe1fa !important;
+    margin-left: 20px !important;
+    margin-top: -8px !important;
+    font-size: 16px !important;
+    font-family: 'Poppins', sans-serif !important;
+    color: #000000;
+}
+.Registerinterest__Submit-row{
+    margin-top: 30px;
+    align-items: center !important;
+    justify-content: center !important;
+    
+}
+.Registerinterest__Submit-Button{
+   color: #FFFFFF;
+   background-color: #000080;
+   border-radius: 20px;
+   width: 20%;
+   margin-bottom: 50px;
+}
+/*For small devices*/
+@media screen and (max-width:576px){
+    .Registerinterest__image{
+        width: 380px !important;
+        height: auto;
+    }
+    .Registerinterest__heading{
+        font-size: 27px;
+        margin-top: 30px;
+        margin-left: 1rem;
+    }
+    .Registerinterest__Form-main{
+        margin-top: 20px;
+    }
+    .Registerinterest__property{
+        margin-left: 1.5rem;
+    }
+    .Registerinterest__Submit-Button{
+        width: 30%;
+    }
+}
+/*For small and medium devices*/
+@media(min-width: 576px) and (max-width: 800px){
+    .Registerinterest__image{
+        width: 400px !important;
+        height: auto;
+        margin-top: 20px !important;
+    }
+    .Registerinterest__Form-main{
+        margin-top: 20px;
+    }
+}
+/*For medium and large devices*/
+@media(min-width: 800px) and (max-width: 1200px){
+    .Registerinterest__image{
+        width: 500px !important;
+        height: auto;
+        margin-top: 20px !important;
+    }
+}
